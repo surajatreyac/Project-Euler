@@ -14,5 +14,5 @@ sum' = sum
 
 multiple3_5 :: (Integral a) => a -> a
 multiple3_5 x = sum' $ nub $ filter multiple3 [1..x-1] ++ 
-								filter multiple5 [1..x-1] 
+                             filter multiple5 [1..x-1] 
 
